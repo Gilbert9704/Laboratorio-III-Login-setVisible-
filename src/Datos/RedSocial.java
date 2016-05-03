@@ -34,19 +34,18 @@ public class RedSocial {
     }
     
     public void registrarUsuario() throws IllegalArgumentException, InputMismatchException{
-    
         try{    
             name = RedSocialFrame.nombre.getText();
             regUsr.setNombre(name);
             nickname = RedSocialFrame.nick.getText();
             regUsr.setNick(nickname);
-            age = Integer.parseInt(RedSocialFrame.edad.getText());
+            age = Integer.parseInt(RedSocialFrame.edad.getText());//Aqui logro pasar un String a int
             regUsr.setEdad(age);
             password = RedSocialFrame.clave.getText();
             regUsr.setClave(password);
             email = RedSocialFrame.correo.getText();
             regUsr.setCorreo(email);
-
+            //si se va a agregar lo de los comentarios, deberá reemplazarse el documento "usuarios.txt" por uno nuevo
             if ("".equals(name) || "".equals(nickname) || age == 0 || "".equals(password) || "".equals(email)){
                 throw new IllegalArgumentException("Aún faltan datos por completar");
             }else if(age < 0){

@@ -14,7 +14,8 @@ import java.util.logging.Logger;
 
 public class RedSocialFrame extends javax.swing.JFrame {
 
-
+    LoginFrame lgfr = new LoginFrame();//<----
+    
     public RedSocialFrame() {
         initComponents();
         ainf = new ArchivoInf();
@@ -172,7 +173,10 @@ public class RedSocialFrame extends javax.swing.JFrame {
     
     //Boton Cancelar
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        System.exit(0);
+        setVisible(false);//<----
+        lgfr.setLocationRelativeTo(null);//<----
+        lgfr.setVisible(true);//<----
+        //System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void nombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombreActionPerformed

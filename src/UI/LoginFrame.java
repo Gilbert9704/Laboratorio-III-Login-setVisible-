@@ -153,7 +153,9 @@ public class LoginFrame extends javax.swing.JFrame {
         RedSocialFrame interfaz = new RedSocialFrame();  
         interfaz.setTitle("Registro de Usuario");
         interfaz.setLocationRelativeTo(null);
+        setVisible(false);
         interfaz.setVisible(true);
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

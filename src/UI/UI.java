@@ -12,12 +12,13 @@ package UI;
 public class UI {
 
     public void iniciarPrograma() {
-      /*  
+      /*
       RedSocialFrame interfaz = new RedSocialFrame();  
       interfaz.setTitle("Registro de Usuario");
       interfaz.setLocationRelativeTo(null);
       interfaz.setVisible(true);
       */
+      
       LoginFrame logFrm = new LoginFrame();
       logFrm.setTitle("Login");
       logFrm.setLocationRelativeTo(null);
