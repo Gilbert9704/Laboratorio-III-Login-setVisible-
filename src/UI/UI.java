@@ -22,6 +22,7 @@ public class UI {
       logFrm.setTitle("Login");
       logFrm.setLocationRelativeTo(null);
       logFrm.setVisible(true);
+      
     }
     
 }
