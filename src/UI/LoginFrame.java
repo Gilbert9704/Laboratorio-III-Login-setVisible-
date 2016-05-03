@@ -150,10 +150,10 @@ public class LoginFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-      RedSocialFrame interfaz = new RedSocialFrame();  
-      interfaz.setTitle("Registro de Usuario");
-      interfaz.setLocationRelativeTo(null);
-      interfaz.setVisible(true);
+        RedSocialFrame interfaz = new RedSocialFrame();  
+        interfaz.setTitle("Registro de Usuario");
+        interfaz.setLocationRelativeTo(null);
+        interfaz.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
